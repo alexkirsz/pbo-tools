@@ -1,0 +1,33 @@
+{
+  "name": "pbo-tools",
+  "description": "PBO CLI tools.",
+  "author": "Alexandre Kirszenberg <a.kirszenberg@gmail.com>",
+  "version": "0.0.1",
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:morhaus/pbo-tools.git"
+  },
+
+  "bin": {
+    "pbo": "./bin/pbo.js"
+  },
+
+  "scripts": {
+    "prepublish": "grunt"
+  },
+
+  "dependencies": {
+    "commander": "2.0.0",
+    "bis-parser": "0.0.1",
+    "mkdirp": "0.3.5"
+  },
+
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-clean": "*"
+  }
+}
